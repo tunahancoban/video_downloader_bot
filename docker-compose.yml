@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  video-bot:
+    build: .
+    container_name: my-video-bot
+    restart: always
+    volumes:
+      - ./cookies.txt:/app/cookies.txt
+      - ./downloads:/app/downloads
+    environment:
+      - BOT_TOKEN="ENTER YOUR BOT TOKEN"
+      - MY_ID="ENTER YOUR ID"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
