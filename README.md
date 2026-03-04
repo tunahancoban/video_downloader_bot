@@ -27,7 +27,7 @@ Botun kusursuz çalışması için aşağıdaki adımları sırasıyla takip edi
 ### 2. Projenin Sunucuya Çekilmesi
 Terminalinizi açın ve projeyi VPS'inize klonlayın:
 
-
+Bash
 git clone [https://github.com/tunahancoban/video_downloader_bot.git](https://github.com/tunahancoban/video_downloader_bot.git)
 cd video_downloader_bot
 
@@ -49,6 +49,6 @@ Bash
 
 docker-compose up -d
 
-📖 Kullanım
+##📖 Kullanım
 
 Botu Telegram'da başlatın ve herhangi bir Instagram veya Twitter linkini bota gönderin. Video otomatik olarak işlenecek ve size medya dosyası olarak gönderilecektir.
