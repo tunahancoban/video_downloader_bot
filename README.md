@@ -1,34 +1,33 @@
-# 🚀 VDownloader: Sosyal Medya İndirme Asistanı
+🚀 VDownloader: Sosyal Medya İndirme Asistanı
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)
-![Docker](https://img.shields.io/badge/Docker-Enabled-blue?style=for-the-badge&logo=docker)
-![Telegram](https://img.shields.io/badge/Telegram-Bot-blue?style=for-the-badge&logo=telegram)
+VDownloader, favori içeriklerinizi saniyeler içinde cebinize getiren, Telegram tabanlı yüksek performanslı bir video indirme botudur. Karmaşık linklerle uğraşmak yerine, bağlantıyı bota gönderin ve gerisini ona bırakın!
+✨ Öne Çıkan Özellikler
 
-**VDownloader**, favori içeriklerinizi saniyeler içinde cebinize getiren, Telegram tabanlı yüksek performanslı bir video indirme botudur. Karmaşık linklerle uğraşmak yerine, bağlantıyı bota gönderin ve gerisini ona bırakın!
+    Çoklu Platform Desteği: Instagram Reels ve Twitter (X) videolarını tek tıkla yakalayın.
 
-## ✨ Öne Çıkan Özellikler
+    Hızlı & Kayıpsız: İçerikleri orijinal kalitesinde ve en hızlı şekilde indirin.
 
-* **Çoklu Platform Desteği:** Instagram Reels ve Twitter (X) videolarını tek tıkla yakalayın.
-* **Hızlı & Kayıpsız:** İçerikleri orijinal kalitesinde ve en hızlı şekilde indirin.
-* **Sunucu Odaklı:** VPS veya ev sunucunuzda 7/24 kesintisiz çalışacak şekilde optimize edilmiştir.
-* **Docker Entegrasyonu:** Karmaşık bağımlılıklarla uğraşmadan tek komutla kurulum.
+    Sunucu Odaklı: VPS veya ev sunucunuzda 7/24 kesintisiz çalışacak şekilde optimize edilmiştir.
 
----
+    Docker Entegrasyonu: Karmaşık bağımlılıklarla uğraşmadan tek komutla kurulum.
 
-## 🛠️ Kurulum ve Hazırlık
+🛠️ Kurulum ve Hazırlık
 
 Botun kusursuz çalışması için aşağıdaki adımları sırasıyla takip edin:
+1. Kimlik Bilgilerinin Hazırlanması
 
-### 1. Kimlik Bilgilerinin Hazırlanması
-* **Instagram Cookies:** Instagram'ın botu engellememesi için tarayıcınızdan aldığınız `cookies.txt` dosyasını ana dizine eklemelisiniz.
-* **Telegram Bot Token:** [@BotFather](https://t.me/botfather) üzerinden oluşturduğunuz API anahtarını hazırlayın.
-* **User ID:** Botun sadece size hizmet etmesi için Telegram kullanıcı ID'nizi not alın.
+    Instagram Cookies: Instagram'ın botu engellememesi için tarayıcınızdan aldığınız cookies.txt dosyasını ana dizine eklemelisiniz.
 
-### 2. Projenin Sunucuya Çekilmesi
+    Telegram Bot Token: @BotFather üzerinden oluşturduğunuz API anahtarını hazırlayın.
+
+    User ID: Botun sadece size hizmet etmesi için Telegram kullanıcı ID'nizi not alın.
+
+2. Projenin Sunucuya Çekilmesi
+
 Terminalinizi açın ve projeyi VPS'inize klonlayın:
-
 Bash
-git clone [https://github.com/tunahancoban/video_downloader_bot.git](https://github.com/tunahancoban/video_downloader_bot.git)
+
+git clone https://github.com/tunahancoban/video_downloader_bot.git
 cd video_downloader_bot
 
 3. Yapılandırma
@@ -49,6 +48,6 @@ Bash
 
 docker-compose up -d
 
-##📖 Kullanım
+📖 Kullanım
 
 Botu Telegram'da başlatın ve herhangi bir Instagram veya Twitter linkini bota gönderin. Video otomatik olarak işlenecek ve size medya dosyası olarak gönderilecektir.
